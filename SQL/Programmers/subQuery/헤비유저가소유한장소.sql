@@ -1,3 +1,8 @@
+/*
+GROUP BY를 적용하면 SELECT 절에는 
+GROUP BY에서 사용한 attribute와 aggregate 함수만 적용 가능
+aggregate 함수 : SUM AVG MAX MIN COUNT 등
+*/
 SELECT *
 FROM PLACES
 WHERE HOST_ID IN
